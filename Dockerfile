@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:17-slim-bullseye
 
 RUN apt-get update && \
     apt-get install -y maven default-mysql-client

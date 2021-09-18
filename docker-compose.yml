@@ -5,7 +5,7 @@ volumes:
 
 services:
   db:
-    image: mysql:5.7
+    image: mysql:8
     restart: always
     ports:
       # NOTE: we're not forwarding this port to the host. Adminer on port 8080
