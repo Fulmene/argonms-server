@@ -1,7 +1,7 @@
 FROM openjdk:17-slim-bullseye
 
 RUN apt-get update && \
-    apt-get install -y maven default-mysql-client
+    apt-get install -y maven default-mysql-client python-is-python2
 
 WORKDIR /app
 # Cache plugins by calling help once before use
